@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "generate": "plop",
     "build": "next build",
     "start": "next start",
     "lint": "eslint"
@@ -19,6 +20,8 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.0.3",
+    "plop": "^4.0.4",
+    "sass": "^1.94.2",
     "typescript": "^5"
   }
 }
