@@ -1,19 +1,11 @@
-import React, { ReactNode } from "react";
-import { BEM } from "@/utils/component/BEM";
-import { className } from "@/utils/component/className";
-import "./{{pascalCase name}}.scss";
-
-/**
- * This component...
- *
- * @param {Type} param - Requested param.
- */
-type {{pascalCase name}}Props = {
-  children?: ReactNode;
+export type {{pascalCase name}}Props = {
+  // props
 };
 
-export default function {{pascalCase name}}({ children }: {{pascalCase name}}Props) {
-  const {{pascalCase name}}Class = className(BEM("{{ kebabCase name }}"));
-
-  return <div className={{pascalCase name}}Class>{children}</div>;
+export function {{pascalCase name}}(props: {{pascalCase name}}Props) {
+  return (
+    <div>
+      {/* Component content */}
+    </div>
+  );
 }

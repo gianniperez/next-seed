@@ -1,15 +1,10 @@
-import Button from "@/components/Button/Button";
-import "./page.scss";
+import { HelloWorld } from "@/components/HelloWorld";
 
 export default function Home() {
   return (
     <div>
       <main>
-        <div>
-          <h1>Home</h1>
-          <p>This is a description.</p>
-          <Button>dsifhkjsf</Button>
-        </div>
+        <HelloWorld>Hello World</HelloWorld>
       </main>
     </div>
   );
