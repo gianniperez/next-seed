@@ -1,4 +1,4 @@
-# Next.js Template
+# Next Seed
 
 ## Introducción
 
