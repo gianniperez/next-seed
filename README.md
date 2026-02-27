@@ -1,4 +1,4 @@
-# Next.js Template (Golden Path)
+# Next.js Template
 
 ## Introducción
 
