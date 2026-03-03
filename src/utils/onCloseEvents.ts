@@ -13,7 +13,7 @@ import { useEffect } from "react";
 export function useOnCloseEvents(
   open: boolean,
   ref: React.RefObject<HTMLElement | null>,
-  onClose: () => void
+  onClose: () => void,
 ) {
   useEffect(() => {
     if (!open) return;
